@@ -136,6 +136,8 @@ The project follows a standard, reproducible machine learning workflow:
 ## 📈 Results & Feature Importance
 
 ### Evaluation Metrics
+<img width="857" height="561" alt="image" src="https://github.com/user-attachments/assets/9ab51bc6-00d4-494d-929b-01e2f578c13f" />
+
 Each model was evaluated on the test set using:
 - **R² Score** — proportion of variance explained (higher is better).
 - **MAE** — mean absolute error in AUD (lower is better).
