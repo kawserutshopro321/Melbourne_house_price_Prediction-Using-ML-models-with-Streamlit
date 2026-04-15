@@ -83,13 +83,13 @@ st.subheader("Price Distribution")
 fig = px.histogram(filtered_df, x='Price', nbins=50, marginal='box', color_discrete_sequence=['skyblue'])
 st.plotly_chart(fig, use_container_width=True)
 
-# Rooms vs Price (Fixed ✅)
+# Rooms vs Price
 st.subheader("Rooms vs Price")
 fig = px.box(
     filtered_df,
     x='Rooms',
     y='Price',
-    color='Rooms',  # categorical coloring is fine
+    color='Rooms',
     title="Price Distribution by Number of Rooms"
 )
 st.plotly_chart(fig, use_container_width=True)
